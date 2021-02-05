@@ -13,7 +13,7 @@
     <?php
         if ($_POST['käyttäjätunnus'] == "olliro" and $_POST['salasana'] == "1234") {
             echo "Salasana oikein!";
-            echo "<br>Salainen viesti: Nyt on helmikuu.";
+            echo "<br>Salainen viesti: Nyt on helmikuu!";
         } else {
             ?> 
             <form action="salasana.php" method="post">
